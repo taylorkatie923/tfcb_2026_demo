@@ -49,7 +49,6 @@ Computational equivalents: *volume* = number of cells/features, *time* = runtime
 15. Run echo features on the 489 chromVAR motifs, taking cell counts from `lognorm_counts`.
 16. Plot echo-feature volcanoes per cluster (≥ 30 cells, 15–25 labels).
 17. Plot the top 8 desynchronized genes per cluster (by `var_explained_diff`) on the linked UMAPs.
-18. Plot FOXA1 and SOX6 on the linked UMAPs: observed chromVAR, MAGIC expression, accessibility predicted from ATAC and from RNA space, and the predicted residual difference.
 
 ## Result
 
@@ -59,3 +58,4 @@ Computational equivalents: *volume* = number of cells/features, *time* = runtime
 
 ![echoFeatures result with top predictive TF motifs for ATAC cell states](img/2026-10-13_pt56_echoFeatures_volcano.png)
 *Figure 2.* echo-features volcano of chromVAR motif accessibility for the 489 motif TFs in Leiden cluster 6 of Pt56 tumor cells. The x-axis is the difference in variance explained by the RNA vs ATAC diffusion-map structure (positive = associated with RNA structure); the y-axis is the Mahalanobis distance. The top 25 motifs are labeled, and only TFs expressed in more than 30 cells are shown (scEcho `run_echo_features`, `sigma=0.1`, `ls=10**-0.5`). Figure produced by Katie Taylor with scEcho 0.0.5 in `KT_pt_sample_56.ipynb`.
+
