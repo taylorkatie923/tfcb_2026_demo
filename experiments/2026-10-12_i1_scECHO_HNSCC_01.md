@@ -53,6 +53,6 @@ Computational equivalents: *volume* = number of cells/features, *time* = runtime
 
 ## Result
 
-![Linked RNA and ATAC UMAPs colored by desynchronization direction](img/2026-10-12_schEcho_HNSCC_linkedplot.png)
+![Linked RNA and ATAC UMAPs colored by desynchronization direction](img/2026-10-13_pt56_direction_linked_umap.png)
 
 *Figure 1.* Linked RNA (left) and depth-corrected ATAC (right) UMAPs of 4,613 Pt56 tumor cells. Each cell is colored by whether its state density is higher in RNA, higher in ATAC, or not different (scEcho `dn_comp_obsm`, depth-regressed multiscale diffusion maps). Figure produced by Katie Taylor with scEcho 0.0.5 in `KT_pt_sample_56.ipynb`.
