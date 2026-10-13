@@ -55,4 +55,7 @@ Computational equivalents: *volume* = number of cells/features, *time* = runtime
 
 ![Linked RNA and ATAC UMAPs colored by desynchronization direction](img/2026-10-13_pt56_direction_linked_umap.png)
 
-*Figure 1.* Linked RNA (left) and depth-corrected ATAC (right) UMAPs of 4,613 Pt56 tumor cells. Each cell is colored by whether its state density is higher in RNA, higher in ATAC, or not different (scEcho `dn_comp_obsm`, depth-regressed multiscale diffusion maps). Figure produced by Katie Taylor with scEcho 0.0.5 in `KT_pt_sample_56.ipynb`.
+*Figure 1.* Linked RNA (top) and depth-corrected ATAC (bottom) UMAPs of 4,613 Pt56 tumor cells. Each cell is colored by whether its state density is higher in RNA, higher in ATAC, or not different (scEcho `dn_comp_obsm`, depth-regressed multiscale diffusion maps). Figure produced by Katie Taylor with scEcho 0.0.5 in `KT_pt_sample_56.ipynb`.
+
+![echoFeatures result with top predictive TF motifs for ATAC cell states](img/2026-10-13_pt56_echoFeatures_volcano.png)
+*Figure 2.* echo-features volcano of chromVAR motif accessibility for the 489 motif TFs in Leiden cluster 6 of Pt56 tumor cells. The x-axis is the difference in variance explained by the RNA vs ATAC diffusion-map structure (positive = associated with RNA structure); the y-axis is the Mahalanobis distance. The top 25 motifs are labeled, and only TFs expressed in more than 30 cells are shown (scEcho `run_echo_features`, `sigma=0.1`, `ls=10**-0.5`). Figure produced by Katie Taylor with scEcho 0.0.5 in `KT_pt_sample_56.ipynb`.
