@@ -2,7 +2,7 @@
 
 2026-10-12
 
-[Issue #1](https://github.com/tayorkatie923/tfcb_2026_demo/issues/1)
+[Issue #1](https://github.com/taylorkatie923/tfcb_2026_demo/issues/1)
 
 
 ## Reagents
