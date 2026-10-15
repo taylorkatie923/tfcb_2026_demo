@@ -48,7 +48,6 @@ Computational equivalents: *volume* = number of cells/features, *time* = runtime
 14. Run echo features on the 2,442 HVGs (`sigma=0.1`, `ls=10**-0.5`) per Leiden cluster.
 15. Run echo features on the 489 chromVAR motifs, taking cell counts from `lognorm_counts`.
 16. Plot echo-feature volcanoes per cluster (≥ 30 cells, 15–25 labels).
-17. Plot the top 8 desynchronized genes per cluster (by `var_explained_diff`) on the linked UMAPs.
 
 ## Result
 
