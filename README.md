@@ -4,12 +4,18 @@ This repository was made for the purposes for the Tools for Computational Biolog
 
 Columns:
 - analysis
+  - README.md
   - qpcr
     - 2026-10-13-i2-tidy_data_exercise
       - tables
+        - tidy_data.csv
 - data
+  -README.md
 - experiments
+  - 2026-10-12_i1_scECHO_HNSCC_01.md
   - img
+    - 2026-10-13_pt56_direction_linked_umap.png
+    - 2026-10-13_pt56_echoFeatures_volcano.png
 
 ## Collaborators
 
