@@ -2,7 +2,7 @@
 
 This repository was made for the purposes for the Tools for Computational Biology class Homework #1. It contains folders including results from experiments from Katie Taylor's first rotation, as well as qPCR results that Katie Taylor has tidied from a separate experiment. This repository was made by Katie (Katherine) Taylor, and it has the following folder layout:
 
-Columns:
+- README.md
 - analysis
   - README.md
   - qpcr
