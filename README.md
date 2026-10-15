@@ -19,7 +19,7 @@ This repository was made for the purposes for the Tools for Computational Biolog
 
 ## Collaborators
 
-@vbrow and @c-resnick have been invited as collaborators. They now have write access to this repository and can commit changes and edit files rather than only viewing and commenting. They may also manage issues, labels, and assignments. 
+@vbrow29 and @c-resnick have been invited as collaborators. They now have write access to this repository and can commit changes and edit files rather than only viewing and commenting. They may also manage issues, labels, and assignments. 
 
 
 ### Homework 1
